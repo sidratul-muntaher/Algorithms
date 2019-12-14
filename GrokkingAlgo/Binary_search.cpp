@@ -36,7 +36,7 @@ int binary(int arr[],int item)
 
 }
 
-main()
+int main()
 {
     int x[10000];
     for(int i = 0, j = 3; i<10000; i++, j = j+2)
@@ -48,4 +48,5 @@ main()
        // cout <<"index ["<< i << "] = "<< x[i]<< endl;
     }
     cout << binary(x, 19991);
+    return 0;
 }
